@@ -13,5 +13,6 @@
             android:clickable="true"
             android:foreground="?selectableItemBackground"
             app:srcCompat="@drawable/ic_launcher_background"
-            android:id="@+id/videoThumb" android:scaleType="centerCrop"/>
+            android:id="@+id/videoThumb"
+            android:scaleType="centerCrop"/>
 </FrameLayout>

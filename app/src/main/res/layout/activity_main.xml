@@ -6,7 +6,8 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" android:background="@color/colorBackground"
+        tools:context=".MainActivity"
+        android:background="@color/colorBackground"
         android:layout_gravity="center_vertical|center">
 
     <android.support.design.widget.BottomNavigationView

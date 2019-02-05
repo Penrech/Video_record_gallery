@@ -28,8 +28,12 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_videocam_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\PcCom" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="height" value="48" />
+                            <entry key="outputName" value="ic_round_play_circle_filled_white_48" />
+                            <entry key="overrideSize" value="true" />
+                            <entry key="sourceFile" value="C:\Users\PcCom\Downloads\round-play_circle_filled_white-24px.svg" />
+                            <entry key="width" value="48" />
                           </map>
                         </option>
                       </PersistentState>

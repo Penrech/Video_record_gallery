@@ -1,44 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:keepScreenOn="true"
-        android:background="@android:color/background_dark"
-        tools:context=".VideoActivity"
-        android:fitsSystemWindows="true"
-        android:id="@+id/rootFullscreen">
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/background_dark"
+             tools:context=".VideoActivity"
+             android:id="@+id/rootVideo"
+             android:layout_gravity="center_vertical|center_horizontal|center">
 
     <FrameLayout
-            android:id="@+id/video_frame"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center">
-
+            android:id="@+id/fullscreen_content"
+            android:layout_height="match_parent">
         <VideoView
                 android:id="@+id/videoView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"/>
+                android:keepScreenOn="true"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:layout_gravity="center_vertical|center_horizontal|center"/>
 
     </FrameLayout>
 
-    <FrameLayout
+    <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="true">
+            android:scaleType="fitCenter"
+            android:id="@+id/videoBackground"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:visibility="visible"
+            android:adjustViewBounds="true"/>
 
-        <LinearLayout
-                android:id="@+id/controller_frame"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:orientation="horizontal">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_round_play_circle_filled_white_100"
+            android:id="@+id/playPauseButton"
+            android:layout_gravity="center_vertical|center_horizontal|center"/>
 
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:fitsSystemWindows="true"
+                 android:id="@+id/controles">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls"
+                      style="?metaButtonBarStyle"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="bottom|center_horizontal"
+                      android:background="@color/black_overlay"
+                      android:orientation="horizontal"
+                      tools:ignore="UselessParent"
+                      android:padding="10dp">
+
+            <TextView
+                    android:text="00:00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currentTime"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/background_light"/>
+            <SeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/videoSeekbar"
+                    android:layout_weight="10"
+                    android:layout_gravity="center_vertical"
+                    android:max="100"
+                    android:progress="0"/>
+            <TextView
+                    android:text="00:00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalTime"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/background_light"/>
         </LinearLayout>
-
     </FrameLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+</FrameLayout>
