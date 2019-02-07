@@ -15,9 +15,9 @@
 
 <h1>Screenshots</h1>
 <p align = "center">
-  <a href='#img1'><img id='img1' width = '32%' src='Screenshot_20190205-190556.png'/></a>
-  <a href='#img2'><img id='img2' width = '32%' src='Screenshot_20190205-190620.png'/></a>
-  <a href='#img3'><img id='img3' width = '32%' src='Screenshot_20190205-190629.png'/></a>
+  <a href='#img1'><img id='img1' width = '32%' src=''/></a>
+  <a href='#img2'><img id='img2' width = '32%' src=''/></a>
+  <a href='#img3'><img id='img3' width = '32%' src=''/></a>
 </p>
 
 <h1>Demo *</h1>
