@@ -38,6 +38,5 @@
    <a href='#imgE3'><img id='imgE3' width = '49%' src='VG_3-17.png'/></a>
 </p>
 <h1>License</h1>
-<p>This repo acts like a portfolio and the app contained here <b>can't hold liability neither place warranty</b>. Furthermore, the final porpouse of this app is not decided yet, so in order to avoid problems in the future this repo has a <b>NonCommercial</b> CC-BY-NC license</p>
-<p><b>Creative Commons Attribution NonCommercial (CC-BY-NC)</b></p>
-<p>This variant of the attribution creative commons license does not allow for commercial use of the original work. Doesn’t allow for Tivoization and provides protection from defamation for the creator.</p>
+<p>This repo acts like a portfolio and the app contained here <b>can't hold liability neither place warranty</b>. Furthermore, the final porpouse of this app is not decided yet, so in order to avoid problems in the future this repo has a <b>NonCommercial</b> CC-BY-ND license</p>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
