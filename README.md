@@ -37,3 +37,7 @@
   <a href='https://www.youtube.com/watch?v=BO0nbgTr21k'><img width = '49%' src='VideoGallery3.gif'/></a>
    <a href='#imgE3'><img id='imgE3' width = '49%' src='VG_3-17.png'/></a>
 </p>
+<h1>License</h1>
+<p>This repo acts like a portfolio and the app contained here **can't hold liability neither place warranty**. Furthermore, the final porpouse of this app is not decided yet, so in order to avoid problems in the future this repo has a **NonCommercial** CC-BY-NC license</p>
+<p>**Creative Commons Attribution NonCommercial (CC-BY-NC)**</p>
+<p>This variant of the attribution creative commons license does not allow for commercial use of the original work. Doesn’t allow for Tivoization and provides protection from defamation for the creator.</p>
